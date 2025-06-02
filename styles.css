@@ -1,4 +1,7 @@
 /* Your CSS code here. */
+body{
+font-size:14px
+}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -6,12 +9,17 @@ table {
 }
 
 td, th {
-  border: 2px solid #dddddd;
+  border: 2px outset #dddddd;
   text-align: left;
   padding: 8px;
 }
 th{
 text-align:center
+}
+span{
+	background-color:#eff1f3;
+	border-radius:5px;
+	padding:2px
 }
 tr:nth-child(even){
 background-color: rgb(246, 248, 250);
